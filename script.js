@@ -57,7 +57,7 @@ function generatePassword() {
     };
 
     if (!confirmLower && !confirmUpper && !confirmNumber && !confirmSpecial) {
-        userChoices = alert("You must choose a criteria");
+        userChoices = alert("You must choose characters!");
      
 
       } else if (confirmLower && confirmUpper && confirmNumber && confirmSpecial) {
