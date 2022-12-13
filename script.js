@@ -39,7 +39,7 @@ function generatePassword() {
     console.log("Password length " + passwordLength);
 
     if(!passwordLength) {
-        alert("Need Value");
+        alert("Needs A Value!");
 
     } else if (passwordLength < 8 || passwordLength > 128) {
         passwordLength = prompt("Length must be between 8 and 128");
